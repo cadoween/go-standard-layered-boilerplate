@@ -15,6 +15,8 @@ require (
 	github.com/joho/godotenv v1.4.0
 	github.com/kyleconroy/sqlc v1.11.0
 	go.uber.org/zap v1.19.1
+	google.golang.org/grpc v1.41.0
+	google.golang.org/protobuf v1.27.1
 )
 
 require (
@@ -144,8 +146,6 @@ require (
 	google.golang.org/api v0.51.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211013025323-ce878158c4d4 // indirect
-	google.golang.org/grpc v1.41.0 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
