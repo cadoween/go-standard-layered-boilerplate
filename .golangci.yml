@@ -1,0 +1,45 @@
+linters:
+  enable-all: true
+
+  disable:
+    - golint
+    - interfacer
+    - maligned
+    - scopelint
+    - varnamelen
+    - gofumpt
+
+linters-settings:
+  exhaustivestruct:
+    struct-patterns:
+      - "github.com/KrisCatDog/go-standard-layered-boilerplate/internal.*Params"
+
+issues:
+  lll:
+    line-length: 130
+  exclude-rules:
+    # Unit testing files
+    - path: _test\.go
+      linters:
+        - cyclop
+        - exhaustivestruct
+        - funlen
+        - goerr113
+        - lll
+        - varnamelen
+        - wrapcheck
+    # Swagger specifications
+    - path: api/openapi/openapi3.go
+      linters:
+        - funlen
+    # Binaries
+    - path: cmd/
+      linters:
+        - cyclop
+        - funlen
+        - gocognit
+        - unparam
+    # Swagger generator
+    - path: cmd/openapi-gen/main.go
+      linters:
+        - forbidigo

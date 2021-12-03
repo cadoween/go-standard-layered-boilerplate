@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "api/proto";
+
+service Todo {
+  rpc CreateTodo (CreateTodoRequest) returns (CreateTodoResponse);
+}
+
+message CreateTodoRequest {
+  string task = 1;
+  bool is_done = 2;
+}
+
+message CreateTodoResponse {
+  int64 id = 1;
+}

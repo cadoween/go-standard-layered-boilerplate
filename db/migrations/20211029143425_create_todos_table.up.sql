@@ -1,0 +1,7 @@
+CREATE TABLE todos (
+    id BIGSERIAL PRIMARY KEY,
+    task VARCHAR NOT NULL,
+    is_done BOOLEAN NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT now(),
+    updated_at TIMESTAMP NOT NULL DEFAULT now()
+);

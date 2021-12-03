@@ -1,0 +1,41 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+vendor/
+
+# VS Code project files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Enviroment
+.env
+
+# Tools as Dependencies binaries
+bin/*
+
+# CMD binary
+./rest-server
