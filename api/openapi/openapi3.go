@@ -19,7 +19,7 @@ func NewOpenAPI3() openapi3.T {
 	swagger := openapi3.T{
 		OpenAPI: "3.0.0",
 		Info: &openapi3.Info{
-			Title:       "Go Standard Modular API",
+			Title:       "Go Standard Layered API",
 			Description: "REST APIs example for standard boilerplate",
 			Version:     "1.0.0",
 			License: &openapi3.License{

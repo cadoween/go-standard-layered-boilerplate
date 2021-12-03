@@ -1,6 +1,6 @@
 # go-standard-layered-boilerplate
 
-Go Standard Modular Boilerplate
+Go Standard Layered Boilerplate
 
 ## Technologies
 
