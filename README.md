@@ -45,7 +45,7 @@ http://localhost:1234
 
 ## Tools as Dependencies
 
-BRIdge is implementing tools as dependencies with go modules.
+Go Standard Layered Boilerplate is implementing tools as dependencies with go modules.
 Instructions on how to use them in the application are linked below.
 
 | Tools   | Repository                                |
