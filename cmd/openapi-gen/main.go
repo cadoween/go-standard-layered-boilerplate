@@ -7,8 +7,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/KrisCatDog/go-standard-layered-boilerplate/api/openapi"
 	"github.com/ghodss/yaml"
+	
+	"github.com/KrisCatDog/go-standard-layered-boilerplate/api/openapi"
 )
 
 func main() {
